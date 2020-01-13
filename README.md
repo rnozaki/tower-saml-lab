@@ -1,7 +1,7 @@
 Ansible Tower SAML integration with Onelogin Identity Provider
 =========
 
-[Repository link](https://gitlab.consulting.redhat.com/automation_practice/tower-saml-lab)
+[Repository link](https://github.com/mpetrive-rh/tower-saml-lab.git)
 
 This builds on the excellent Ansible blog post [Using SAML with Ansible Tower](https://www.ansible.com/blog/using-saml-with-red-hat-ansible-tower) by Chris Meyers of Ansible Engineering fame.  The playbooks and roles provided in this repo automates the configuration outline in the aforementioned blog post and provides additional configuration of Ansible Tower and Onelogin identity provider (SAML)
 
@@ -42,7 +42,7 @@ Usage
 
 1. Clone this repository
 
-   ```ssh://git@gitlab.consulting.redhat.com:2222/automation_practice/tower-saml-lab.git```
+   ```https://github.com/mpetrive-rh/tower-saml-lab.git```
 
 1. Copy `private-vars-template.yml` to `private-vars.yml`
 
